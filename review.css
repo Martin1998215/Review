@@ -1,0 +1,105 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: 0;
+}
+.contact-cover {
+  width: 100%;
+  margin: 10px 0;
+  text-align: center;
+ 
+}
+.contacts {
+  margin: 10px auto 10px auto;
+  padding: 4px 0 40px 0;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 5px 5px 10px black;
+  width: 95%;
+}
+
+.inner-contact {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 30px auto 0 auto;
+  flex-direction: column;
+  padding: 20px;
+  border: 2px solid black;
+  background: white;
+  border-radius: 10px;
+  /* box-shadow: 5px 5px 5px gray; */
+  width: 60%;
+} 
+.contact-name {
+  font-size: 16px;
+  font-weight:bolder;
+  padding: 10px;
+}
+.contact-number {
+  font-size: 16px;
+  font-weight:bold;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 0 10px 10px 10px;
+}
+
+.contact-title {
+  font-size: 14px;
+  font-style: italic;
+  color: black;
+  padding: 0 10px 10px 10px;
+}
+.contact-email {
+  font-size: 16px;
+  font-weight:bold;
+  font-style: italic;
+  color: blue;
+  padding: 0 10px 30px 10px;
+}
+.contact-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 5% 20px 5%;
+  width: 90%;
+}
+.contact-btn1 {
+  /* margin-right: 30px; */
+  width: 40%;
+  padding: 4px;
+  font-size: 15px;
+  
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 8px;
+}
+.contact-btn2 {
+  /* margin-left: 30px; */
+  width: 40%;
+  padding: 4px;
+  font-size: 15px;
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 8px;
+}
+.contact-photo {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+}
+.contact-head {
+  color: black;
+  font-size: 19px;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow',
+   Arial, sans-serif;
+   width: 60%;
+   margin-bottom: 20px;
+   margin: 10px auto 10px auto;
+}
+.contact-tail {
+  width:100%;
+  border-bottom: 1px solid black;
+  margin: 60px 0 30px 0;
+}
